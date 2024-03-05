@@ -11,6 +11,8 @@
 		BE20C35F2B96BA1300A8B7B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */; };
 		BE20C3612B96BA1400A8B7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20C3602B96BA1400A8B7B8 /* Assets.xcassets */; };
 		BE20C3652B96BA1400A8B7B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20C3642B96BA1400A8B7B8 /* Preview Assets.xcassets */; };
+		BE20C36D2B96BCC500A8B7B8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */; };
+		BE20C36F2B96BE9500A8B7B8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20C36E2B96BE9500A8B7B8 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,9 @@
 		BE20C3602B96BA1400A8B7B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE20C3622B96BA1400A8B7B8 /* Portfolio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Portfolio.entitlements; sourceTree = "<group>"; };
 		BE20C3642B96BA1400A8B7B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE20C36C2B96BCC500A8B7B8 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		BE20C36E2B96BE9500A8B7B8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		BE20C3702B96C4F700A8B7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +57,10 @@
 		BE20C35B2B96BA1300A8B7B8 /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				BE20C3702B96C4F700A8B7B8 /* Info.plist */,
 				BE20C35C2B96BA1300A8B7B8 /* PortfolioApp.swift */,
+				BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */,
+				BE20C36E2B96BE9500A8B7B8 /* DataController.swift */,
 				BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */,
 				BE20C3602B96BA1400A8B7B8 /* Assets.xcassets */,
 				BE20C3622B96BA1400A8B7B8 /* Portfolio.entitlements */,
@@ -139,6 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE20C36D2B96BCC500A8B7B8 /* Main.xcdatamodeld in Sources */,
+				BE20C36F2B96BE9500A8B7B8 /* DataController.swift in Sources */,
 				BE20C35F2B96BA1300A8B7B8 /* ContentView.swift in Sources */,
 				BE20C35D2B96BA1300A8B7B8 /* PortfolioApp.swift in Sources */,
 			);
@@ -274,6 +284,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,6 +323,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Portfolio/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -359,6 +371,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE20C36C2B96BCC500A8B7B8 /* Main.xcdatamodel */,
+			);
+			currentVersion = BE20C36C2B96BCC500A8B7B8 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BE20C3512B96BA1300A8B7B8 /* Project object */;
 }
