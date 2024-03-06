@@ -13,6 +13,9 @@
 		BE20C3652B96BA1400A8B7B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20C3642B96BA1400A8B7B8 /* Preview Assets.xcassets */; };
 		BE20C36D2B96BCC500A8B7B8 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */; };
 		BE20C36F2B96BE9500A8B7B8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20C36E2B96BE9500A8B7B8 /* DataController.swift */; };
+		BEA779DC2B97D37A0020EEFC /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA779DB2B97D37A0020EEFC /* SidebarView.swift */; };
+		BEA779DE2B97D3840020EEFC /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA779DD2B97D3840020EEFC /* DetailView.swift */; };
+		BEA779E02B97D62D0020EEFC /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA779DF2B97D62D0020EEFC /* Filter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		BE20C36C2B96BCC500A8B7B8 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
 		BE20C36E2B96BE9500A8B7B8 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		BE20C3702B96C4F700A8B7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BEA779DB2B97D37A0020EEFC /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		BEA779DD2B97D3840020EEFC /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BEA779DF2B97D62D0020EEFC /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 			children = (
 				BE20C3702B96C4F700A8B7B8 /* Info.plist */,
 				BE20C35C2B96BA1300A8B7B8 /* PortfolioApp.swift */,
+				BEA779DF2B97D62D0020EEFC /* Filter.swift */,
 				BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */,
 				BE20C36E2B96BE9500A8B7B8 /* DataController.swift */,
 				BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */,
+				BEA779DB2B97D37A0020EEFC /* SidebarView.swift */,
+				BEA779DD2B97D3840020EEFC /* DetailView.swift */,
 				BE20C3602B96BA1400A8B7B8 /* Assets.xcassets */,
 				BE20C3622B96BA1400A8B7B8 /* Portfolio.entitlements */,
 				BE20C3632B96BA1400A8B7B8 /* Preview Content */,
@@ -147,8 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA779E02B97D62D0020EEFC /* Filter.swift in Sources */,
 				BE20C36D2B96BCC500A8B7B8 /* Main.xcdatamodeld in Sources */,
+				BEA779DE2B97D3840020EEFC /* DetailView.swift in Sources */,
 				BE20C36F2B96BE9500A8B7B8 /* DataController.swift in Sources */,
+				BEA779DC2B97D37A0020EEFC /* SidebarView.swift in Sources */,
 				BE20C35F2B96BA1300A8B7B8 /* ContentView.swift in Sources */,
 				BE20C35D2B96BA1300A8B7B8 /* PortfolioApp.swift in Sources */,
 			);
