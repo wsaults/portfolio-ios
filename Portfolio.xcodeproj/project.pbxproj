@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BE1CD8E22B99150E003116B7 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD8E12B99150E003116B7 /* Issue-CoreDataHelpers.swift */; };
 		BE1CD8E42B99169A003116B7 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD8E32B99169A003116B7 /* Tag-CoreDataHelpers.swift */; };
+		BE1CD9002B9D603F003116B7 /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1CD8FF2B9D603F003116B7 /* IssueRow.swift */; };
 		BE20C35D2B96BA1300A8B7B8 /* PortfolioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20C35C2B96BA1300A8B7B8 /* PortfolioApp.swift */; };
 		BE20C35F2B96BA1300A8B7B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */; };
 		BE20C3612B96BA1400A8B7B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE20C3602B96BA1400A8B7B8 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		BE1CD8E12B99150E003116B7 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 		BE1CD8E32B99169A003116B7 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		BE1CD8FF2B9D603F003116B7 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
 		BE20C3592B96BA1300A8B7B8 /* Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Portfolio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE20C35C2B96BA1300A8B7B8 /* PortfolioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioApp.swift; sourceTree = "<group>"; };
 		BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				BE20C36B2B96BCC500A8B7B8 /* Main.xcdatamodeld */,
 				BE20C36E2B96BE9500A8B7B8 /* DataController.swift */,
 				BE20C35E2B96BA1300A8B7B8 /* ContentView.swift */,
+				BE1CD8FF2B9D603F003116B7 /* IssueRow.swift */,
 				BEA779DB2B97D37A0020EEFC /* SidebarView.swift */,
 				BEA779DD2B97D3840020EEFC /* DetailView.swift */,
 				BE1CD8E12B99150E003116B7 /* Issue-CoreDataHelpers.swift */,
@@ -170,6 +173,7 @@
 				BE20C36F2B96BE9500A8B7B8 /* DataController.swift in Sources */,
 				BEA779DC2B97D37A0020EEFC /* SidebarView.swift in Sources */,
 				BE20C35F2B96BA1300A8B7B8 /* ContentView.swift in Sources */,
+				BE1CD9002B9D603F003116B7 /* IssueRow.swift in Sources */,
 				BE20C35D2B96BA1300A8B7B8 /* PortfolioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
